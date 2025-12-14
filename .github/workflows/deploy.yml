@@ -19,8 +19,11 @@ jobs:
           node-version: '20'
           cache: 'pnpm'
 
+
       - name: Install pnpm
-        run: npm install -g pnpm
+        run: |
+          npm install -g pnpm
+          echo "::add-path::$(npm root -g)/pnpm/bin"
 
       - name: Install dependencies
         run: pnpm install
