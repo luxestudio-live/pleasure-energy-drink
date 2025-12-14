@@ -1,0 +1,19 @@
+1:"$Sreact.fragment"
+2:I[89554,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"ThemeProvider"]
+3:I[85311,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"EnergyLoader"]
+4:I[13474,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"Navigation"]
+5:I[98924,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"HeroSection"]
+6:I[22192,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"ProductShowcase"]
+7:I[93509,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"FlavorsSection"]
+8:I[95379,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"BenefitsSection"]
+9:I[75809,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"BrandStory"]
+a:I[45274,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"SocialProof"]
+b:I[82844,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"CTASection"]
+c:I[55944,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"ContactForm"]
+d:I[76841,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"Footer"]
+e:I[18191,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"BackToTop"]
+f:I[46993,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js"],"WhatsAppFloat"]
+10:I[30611,["/pleasure-energy-drink/_next/static/chunks/fdbf5693945df458.js"],"OutletBoundary"]
+11:"$Sreact.suspense"
+0:{"buildId":"SgAqqegrJ5VWufdk1MRBv","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":[["$","$L3",null,{}],["$","div",null,{"className":"relative overflow-x-hidden","children":[["$","$L4",null,{}],["$","main",null,{"children":[["$","$L5",null,{}],["$","$L6",null,{}],["$","$L7",null,{}],["$","$L8",null,{}],["$","$L9",null,{}],["$","$La",null,{}],["$","$Lb",null,{}],["$","$Lc",null,{}]]}],["$","$Ld",null,{}],["$","$Le",null,{}],["$","$Lf",null,{}]]}]]}],[["$","script","script-0",{"src":"/pleasure-energy-drink/_next/static/chunks/5dbe47e0f5d8e78d.js","async":true}]],["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"loading":null,"isPartial":false}
+12:null

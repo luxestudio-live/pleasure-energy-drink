@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[55703,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/fdbf5693945df458.js"],"default"]
+3:I[90714,["/pleasure-energy-drink/_next/static/chunks/aeadb487b12035a6.js","/pleasure-energy-drink/_next/static/chunks/fdbf5693945df458.js"],"default"]
+0:{"buildId":"SgAqqegrJ5VWufdk1MRBv","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
