@@ -35,7 +35,7 @@ jobs:
         run: pnpm install
 
       - name: Build Next.js static site
-        run: pnpm exec next build
+        run: NEXT_PUBLIC_BASE_PATH="/${{ github.event.repository.name }}" pnpm exec next build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
