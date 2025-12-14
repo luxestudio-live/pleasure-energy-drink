@@ -42,9 +42,10 @@ export function Navigation() {
         scrolled ? "bg-theme-nav backdrop-blur-xl" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="text-2xl font-bold text-theme-text">Pleasure Drinks</div>
+      <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+        <div className="text-xl md:text-2xl font-bold text-theme-text">Pleasure Drinks</div>
 
+        {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-8">
           {[
             { id: "product", label: "Product" },
@@ -70,7 +71,9 @@ export function Navigation() {
         </div>
 
         {/* Theme Switcher */}
-        <div className="flex items-center gap-2 p-1 bg-theme-card rounded-full border border-theme-border">
+        <div className="flex items-center gap-2 p-1 bg-theme-card rounded-full border border-theme-border ml-2">
+            {/* Mobile nav placeholder for spacing */}
+            <div className="block md:hidden w-8 h-8" />
           <button
             onClick={() => setTheme("dark")}
             className={`p-2 rounded-full transition-all ${
