@@ -101,7 +101,7 @@ export function HeroSection() {
             className="relative h-[500px] md:h-[600px] flex items-center justify-center"
           >
             <motion.img
-              src="/hero-energy-can-transparent.jpg"
+              src={require("../lib/utils").withBasePath("/hero-energy-can-transparent.jpg")}
               alt="Pleasure Drinks Energy Can"
               className="h-full w-auto object-contain drop-shadow-2xl"
               animate={{

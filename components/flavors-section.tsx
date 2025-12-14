@@ -9,28 +9,28 @@ const flavors = [
     description: "Deep berry fusion with a mysterious edge. Perfect for late-night focus and creative flow.",
     color: "from-indigo-500 to-purple-700",
     experience: "Deep Focus",
-    image: "/dark-purple-energy-drink-can-midnight-rush.jpg",
+    image: require("../lib/utils").withBasePath("/dark-purple-energy-drink-can-midnight-rush.jpg"),
   },
   {
     name: "Citrus Surge",
     description: "Vibrant citrus explosion that energizes and uplifts. Morning motivation in a can.",
     color: "from-yellow-400 to-orange-500",
     experience: "Pure Energy",
-    image: "/orange-yellow-energy-drink-can-citrus-surge.jpg",
+    image: require("../lib/utils").withBasePath("/orange-yellow-energy-drink-can-citrus-surge.jpg"),
   },
   {
     name: "Arctic Mint",
     description: "Cool, refreshing mint with a clean finish. The perfect reset for body and mind.",
     color: "from-cyan-400 to-teal-500",
     experience: "Mental Clarity",
-    image: "/cyan-blue-energy-drink-can-arctic-mint.jpg",
+    image: require("../lib/utils").withBasePath("/cyan-blue-energy-drink-can-arctic-mint.jpg"),
   },
   {
     name: "Crimson Fire",
     description: "Bold tropical heat with a smooth burn. Ignite your inner power and push limits.",
     color: "from-red-500 to-rose-600",
     experience: "Peak Performance",
-    image: "/red-energy-drink-can-crimson-fire.jpg",
+    image: require("../lib/utils").withBasePath("/red-energy-drink-can-crimson-fire.jpg"),
   },
 ]
 
@@ -66,7 +66,7 @@ export function FlavorsSection() {
                 <div className="grid md:grid-cols-2 gap-8 items-center">
                   <div className="relative h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-theme-gradient-1/20 to-theme-gradient-2/20 flex items-center justify-center">
                     <img
-                      src={flavor.image || "/placeholder.svg"}
+                      src={flavor.image || require("../lib/utils").withBasePath("/placeholder.svg")}
                       alt={`${flavor.name} energy drink can`}
                       className="h-full w-auto object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
                     />

@@ -41,7 +41,7 @@ export function EnergyLoader() {
 
             <div className="relative w-40 h-72">
               <img
-                src="/classic-original-energy-drink-can.jpg"
+                src={require("../lib/utils").withBasePath("/classic-original-energy-drink-can.jpg")}
                 alt="Pleasure Drinks Can"
                 className="w-full h-full object-contain"
               />

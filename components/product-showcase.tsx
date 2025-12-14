@@ -8,25 +8,25 @@ const products = [
     name: "Original",
     color: "from-cyan-500 to-purple-500",
     taste: "Classic Energy",
-    image: "/product-can-original-transparent.jpg",
+    image: require("../lib/utils").withBasePath("/product-can-original-transparent.jpg"),
   },
   {
     name: "Citrus Surge",
     color: "from-yellow-500 to-orange-500",
     taste: "Bold & Bright",
-    image: "/product-can-citrus-transparent.jpg",
+    image: require("../lib/utils").withBasePath("/product-can-citrus-transparent.jpg"),
   },
   {
     name: "Midnight Rush",
     color: "from-indigo-500 to-purple-700",
     taste: "Smooth & Intense",
-    image: "/product-can-midnight-transparent.jpg",
+    image: require("../lib/utils").withBasePath("/product-can-midnight-transparent.jpg"),
   },
   {
     name: "Berry Blast",
     color: "from-pink-500 to-red-500",
     taste: "Sweet & Powerful",
-    image: "/product-can-berry-transparent.jpg",
+    image: require("../lib/utils").withBasePath("/product-can-berry-transparent.jpg"),
   },
 ]
 
@@ -61,7 +61,7 @@ export function ProductShowcase() {
               <div className="relative overflow-hidden rounded-3xl bg-theme-card border border-theme-border p-8 transition-all hover:scale-105 hover:shadow-2xl">
                 <div className="relative h-64 mb-6 flex items-center justify-center bg-gradient-to-br from-theme-gradient-1/10 to-theme-gradient-2/10 rounded-2xl overflow-hidden">
                   <img
-                    src={product.image || "/placeholder.svg"}
+                    src={product.image || require("../lib/utils").withBasePath("/placeholder.svg")}
                     alt={`${product.name} energy drink can`}
                     className="h-full w-auto object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-500"
                   />

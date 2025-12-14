@@ -10,28 +10,28 @@ const testimonials = [
     role: "Pro Gamer",
     content: "Keeps me sharp during 12-hour streams. No jitters, no crash. Game changer.",
     rating: 5,
-    image: "/pro-gamer-portrait.jpg",
+    image: require("../lib/utils").withBasePath("/pro-gamer-portrait.jpg"),
   },
   {
     name: "Sarah Martinez",
     role: "Fitness Athlete",
     content: "Clean ingredients, incredible taste. Perfect pre-workout energy boost.",
     rating: 5,
-    image: "/fitness-athlete-portrait.jpg",
+    image: require("../lib/utils").withBasePath("/fitness-athlete-portrait.jpg"),
   },
   {
     name: "Jordan Lee",
     role: "Content Creator",
     content: "Finally, an energy drink that matches my lifestyle. Premium quality.",
     rating: 5,
-    image: "/content-creator-portrait.jpg",
+    image: require("../lib/utils").withBasePath("/content-creator-portrait.jpg"),
   },
   {
     name: "Maya Patel",
     role: "Entrepreneur",
     content: "Sustained focus without the anxiety. My new secret weapon.",
     rating: 5,
-    image: "/entrepreneur-portrait.jpg",
+    image: require("../lib/utils").withBasePath("/entrepreneur-portrait.jpg"),
   },
 ]
 
@@ -67,7 +67,7 @@ export function SocialProof() {
                 {/* Profile image */}
                 <div className="w-20 h-20 rounded-full bg-gradient-to-br from-theme-accent to-theme-glow-mid mb-4 overflow-hidden">
                   <img
-                    src={testimonial.image || "/placeholder.svg"}
+                    src={testimonial.image || require("../lib/utils").withBasePath("/placeholder.svg")}
                     alt={testimonial.name}
                     className="w-full h-full object-cover"
                   />
