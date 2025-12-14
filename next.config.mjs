@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
+
+const repoName = 'pleasure-energy-drink';
+const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
@@ -6,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  output: 'export',
+  basePath: isProd ? `/${repoName}` : '',
+  assetPrefix: isProd ? `/${repoName}/` : '',
 }
 
 export default nextConfig
